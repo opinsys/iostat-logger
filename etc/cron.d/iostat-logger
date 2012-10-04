@@ -1,5 +1,5 @@
 # Starts iostat and iostat logger script
 
 0 8     * * 1-5 root    iostat 59 400 > /var/local/iostat.raw
-* 9-15  * * 1-5 root    /bin/iostat.pl
+* 9-15  * * 1-5 root    /usr/local/bin/iostat.pl
 
